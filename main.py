@@ -9,7 +9,7 @@ file1.close()
 
 file2 = open("rules/height.txt", "r")
 height_check = int(file2.read())
-file2.close()
+file1.close()
 
 running = True
 while running:
@@ -23,7 +23,7 @@ while running:
     height = int(height)
 
     #Process checks
-    if(age >= age_check and height >= height_check):
+    if(age > age_check and height > height_check):
         os.system('cls')
         print("Stap maar in!")
         print(coasterimg.get())
