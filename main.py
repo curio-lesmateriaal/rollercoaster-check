@@ -19,7 +19,7 @@ while running:
     print("Rollercoaster-check™")
     age = input("Voer leeftijd in: ")
     height = input("Voer lengte in: ")
-    age = int(age)
+    age = int(6)
     height = int(height)
 
     #Process checks
