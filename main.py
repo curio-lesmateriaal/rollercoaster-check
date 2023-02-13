@@ -19,8 +19,6 @@ while running:
     print("Rollercoaster-check™")
     age = input("Voer leeftijd in: ")
     height = input("Voer lengte in: ")
-    age = int(age)
-    height = int(height)
 
     #Process checks
     if(age > age_check and height > height_check):
