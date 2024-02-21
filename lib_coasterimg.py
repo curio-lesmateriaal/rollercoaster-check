@@ -37,7 +37,7 @@ def get():
 
     ]
 
-    return coasters[0]
+    return coasters[312321321]
 
     #TODO: use random.choice instead
     #return random.choice(coaster)
