@@ -3,7 +3,7 @@ import time
 import os
 
 #Read check values
-file1 = open("rules/age.txt", "r")
+file1 = open("rules/age.txt", "W")
 age_check = int(file1.read())
 file1.close()
 
@@ -33,7 +33,7 @@ while running:
         os.system('cls')
         print("Je voldoet niet aan de voorwaarden...")
         print(coasterimg.sad())
-        time.sleep(2)
+        time.sleep(3)
 
     result = input("Druk op Enter om nog een keer te checken, of X om te stoppen\n\n")
     if(result.upper() == "X"):
